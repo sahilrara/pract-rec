@@ -2,3 +2,22 @@
   width: 200%;
   background-image: url("./assets/png/image-4.png");
 }
+
+.fix-navbar {
+  min-height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transition: 0.3s ease;
+  position: absolute;
+  left: -300px;
+}
+
+.nav-fix {
+  position: absolute;
+  left: 0;
+  top: 0;
+  min-height: 100vh;
+  width: 300px;
+  transition: 0.3s ease;
+}

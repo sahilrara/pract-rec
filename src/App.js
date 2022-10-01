@@ -5,6 +5,7 @@ import Header from "./components/Header";
 import Hero from "./components/Hero";
 import RoadMap from "./components/RoadMap";
 import Home from "./Home";
+import "./App.css";
 import { Route, Switch } from "react-router-dom";
 
 const App = () => {
