@@ -9,6 +9,14 @@ function Hero() {
   } else {
     document.body.classList.remove("overflow-hidden");
   }
+
+  const tableData = [
+    { name: "Naveen", id: 1, result: "Pass" },
+    { name: "Vikram", id: 2, result: "Fail" },
+    { name: "mohit", id: 3, result: "Not Confirm" },
+    { name: "aniket", id: 4, result: "Pass" },
+  ];
+
   return (
     <div className="container mt-4 ">
       <button
@@ -17,222 +25,27 @@ function Hero() {
       >
         Click
       </button>
-      <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti,
-        quis. Ipsum quam qui natus iste animi alias provident dolores delectus
-        error expedita! Eaque, temporibus? Iusto ipsa voluptatibus aperiam
-        repellat at.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti,
-        quis. Ipsum quam qui natus iste animi alias provident dolores delectus
-        error expedita! Eaque, temporibus? Iusto ipsa voluptatibus aperiam
-        repellat at.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti,
-        quis. Ipsum quam qui natus iste animi alias provident dolores delectus
-        error expedita! Eaque, temporibus? Iusto ipsa voluptatibus aperiam
-        repellat at.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti,
-        quis. Ipsum quam qui natus iste animi alias provident dolores delectus
-        error expedita! Eaque, temporibus? Iusto ipsa voluptatibus aperiam
-        repellat at.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti,
-        quis. Ipsum quam qui natus iste animi alias provident dolores delectus
-        error expedita! Eaque, temporibus? Iusto ipsa voluptatibus aperiam
-        repellat at.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti,
-        quis. Ipsum quam qui natus iste animi alias provident dolores delectus
-        error expedita! Eaque, temporibus? Iusto ipsa voluptatibus aperiam
-        repellat at.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti,
-        quis. Ipsum quam qui natus iste animi alias provident dolores delectus
-        error expedita! Eaque, temporibus? Iusto ipsa voluptatibus aperiam
-        repellat at.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti,
-        quis. Ipsum quam qui natus iste animi alias provident dolores delectus
-        error expedita! Eaque, temporibus? Iusto ipsa voluptatibus aperiam
-        repellat at.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti,
-        quis. Ipsum quam qui natus iste animi alias provident dolores delectus
-        error expedita! Eaque, temporibus? Iusto ipsa voluptatibus aperiam
-        repellat at.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti,
-        quis. Ipsum quam qui natus iste animi alias provident dolores delectus
-        error expedita! Eaque, temporibus? Iusto ipsa voluptatibus aperiam
-        repellat at.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti,
-        quis. Ipsum quam qui natus iste animi alias provident dolores delectus
-        error expedita! Eaque, temporibus? Iusto ipsa voluptatibus aperiam
-        repellat at.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti,
-        quis. Ipsum quam qui natus iste animi alias provident dolores delectus
-        error expedita! Eaque, temporibus? Iusto ipsa voluptatibus aperiam
-        repellat at.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti,
-        quis. Ipsum quam qui natus iste animi alias provident dolores delectus
-        error expedita! Eaque, temporibus? Iusto ipsa voluptatibus aperiam
-        repellat at.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti,
-        quis. Ipsum quam qui natus iste animi alias provident dolores delectus
-        error expedita! Eaque, temporibus? Iusto ipsa voluptatibus aperiam
-        repellat at.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti,
-        quis. Ipsum quam qui natus iste animi alias provident dolores delectus
-        error expedita! Eaque, temporibus? Iusto ipsa voluptatibus aperiam
-        repellat at.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti,
-        quis. Ipsum quam qui natus iste animi alias provident dolores delectus
-        error expedita! Eaque, temporibus? Iusto ipsa voluptatibus aperiam
-        repellat at.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti,
-        quis. Ipsum quam qui natus iste animi alias provident dolores delectus
-        error expedita! Eaque, temporibus? Iusto ipsa voluptatibus aperiam
-        repellat at.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti,
-        quis. Ipsum quam qui natus iste animi alias provident dolores delectus
-        error expedita! Eaque, temporibus? Iusto ipsa voluptatibus aperiam
-        repellat at.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti,
-        quis. Ipsum quam qui natus iste animi alias provident dolores delectus
-        error expedita! Eaque, temporibus? Iusto ipsa voluptatibus aperiam
-        repellat at.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti,
-        quis. Ipsum quam qui natus iste animi alias provident dolores delectus
-        error expedita! Eaque, temporibus? Iusto ipsa voluptatibus aperiam
-        repellat at.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti,
-        quis. Ipsum quam qui natus iste animi alias provident dolores delectus
-        error expedita! Eaque, temporibus? Iusto ipsa voluptatibus aperiam
-        repellat at.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti,
-        quis. Ipsum quam qui natus iste animi alias provident dolores delectus
-        error expedita! Eaque, temporibus? Iusto ipsa voluptatibus aperiam
-        repellat at.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti,
-        quis. Ipsum quam qui natus iste animi alias provident dolores delectus
-        error expedita! Eaque, temporibus? Iusto ipsa voluptatibus aperiam
-        repellat at.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti,
-        quis. Ipsum quam qui natus iste animi alias provident dolores delectus
-        error expedita! Eaque, temporibus? Iusto ipsa voluptatibus aperiam
-        repellat at.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti,
-        quis. Ipsum quam qui natus iste animi alias provident dolores delectus
-        error expedita! Eaque, temporibus? Iusto ipsa voluptatibus aperiam
-        repellat at.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti,
-        quis. Ipsum quam qui natus iste animi alias provident dolores delectus
-        error expedita! Eaque, temporibus? Iusto ipsa voluptatibus aperiam
-        repellat at.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti,
-        quis. Ipsum quam qui natus iste animi alias provident dolores delectus
-        error expedita! Eaque, temporibus? Iusto ipsa voluptatibus aperiam
-        repellat at.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti,
-        quis. Ipsum quam qui natus iste animi alias provident dolores delectus
-        error expedita! Eaque, temporibus? Iusto ipsa voluptatibus aperiam
-        repellat at.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti,
-        quis. Ipsum quam qui natus iste animi alias provident dolores delectus
-        error expedita! Eaque, temporibus? Iusto ipsa voluptatibus aperiam
-        repellat at.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti,
-        quis. Ipsum quam qui natus iste animi alias provident dolores delectus
-        error expedita! Eaque, temporibus? Iusto ipsa voluptatibus aperiam
-        repellat at.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti,
-        quis. Ipsum quam qui natus iste animi alias provident dolores delectus
-        error expedita! Eaque, temporibus? Iusto ipsa voluptatibus aperiam
-        repellat at.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti,
-        quis. Ipsum quam qui natus iste animi alias provident dolores delectus
-        error expedita! Eaque, temporibus? Iusto ipsa voluptatibus aperiam
-        repellat at.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti,
-        quis. Ipsum quam qui natus iste animi alias provident dolores delectus
-        error expedita! Eaque, temporibus? Iusto ipsa voluptatibus aperiam
-        repellat at.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti,
-        quis. Ipsum quam qui natus iste animi alias provident dolores delectus
-        error expedita! Eaque, temporibus? Iusto ipsa voluptatibus aperiam
-        repellat at.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti,
-        quis. Ipsum quam qui natus iste animi alias provident dolores delectus
-        error expedita! Eaque, temporibus? Iusto ipsa voluptatibus aperiam
-        repellat at.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti,
-        quis. Ipsum quam qui natus iste animi alias provident dolores delectus
-        error expedita! Eaque, temporibus? Iusto ipsa voluptatibus aperiam
-        repellat at.
-      </p>
+      {tableData.map((val) => {
+        return (
+          <div key={val.id}>
+            <h1>{val.name}</h1>
+            <p>{val.id}</p>
+            <h2
+              className={`${
+                val.result === "Pass"
+                  ? "text-success"
+                  : `${
+                      val.result === "Not Confirm"
+                        ? "text-warning"
+                        : "text-danger"
+                    }`
+              }`}
+            >
+              {val.result}
+            </h2>
+          </div>
+        );
+      })}
       {/* className="" */}
       <div className={`${navShow ? "nav-fix bg-dark" : " fix-navbar"}`}>
         <h1 className="text-white">responsive navbar</h1>
