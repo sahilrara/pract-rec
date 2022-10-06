@@ -1,6 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import FormPage from "./FormPage";
 
 function Hero() {
   const [navShow, setNavShow] = useState(false);
@@ -19,13 +20,14 @@ function Hero() {
 
   return (
     <div className="container mt-4 ">
+      <FormPage />
       <button
         onClick={() => setNavShow(true)}
         className="btn btn-primary py-1 px-4"
       >
         Click
       </button>
-      {tableData.map((val) => {
+      {/* {tableData.map((val) => {
         return (
           <div key={val.id}>
             <h1>{val.name}</h1>
@@ -45,7 +47,25 @@ function Hero() {
             </h2>
           </div>
         );
-      })}
+      })} */}
+      {tableData.map((val) => {
+        return(
+          <div key={val.id} >
+<h1>{val.name}</h1>
+<p  className={`${
+                val.result === "Pass"
+                  ? "text-success"
+                  : `${
+                      val.result === "Not Confirm"
+                        ? "text-warning"
+                        : "text-danger"
+                    }`
+              }`}  >{val.result}</p>
+<p>{val.id}</p>
+            </div>
+          
+        )
+      }  )}
       {/* className="" */}
       <div className={`${navShow ? "nav-fix bg-dark" : " fix-navbar"}`}>
         <h1 className="text-white">responsive navbar</h1>
