@@ -1,5 +1,6 @@
 // import React from 'react';
 import { useState } from "react";
+import Api from "./Api";
 
 function FormPage() {
   const [firstName, setFirstName] = useState("");
@@ -11,6 +12,7 @@ function FormPage() {
   };
   return (
     <>
+      <Api />
       <form onSubmit={formSubmit}>
         <input
           type="text"
